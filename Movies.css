@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#maindiv{
+    background-image: url(background.jpeg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh; 
+    margin: 20px;
+    border-radius: 14px;
+  
+}
+.navbar{
+   float: right;
+   padding: 8px;
+   margin: 4px;
+}
+ .logo h2{
+  color: azure;
+    float: left;
+    padding: 8px;
+    margin: 4px;
+}
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
+  margin-right: 12px;
+  
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(252, 252, 252); 
+    font-size: 18px;
+}
+
+.navbar li a:hover{
+    color:red;
+}
+.contain{
+
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-60%);
+      
+
+}

@@ -1,3 +1,3 @@
 # MoviesBar
-Navo Project 
-Auther - Happy Prajapati
+Auther (frontend)- Happy Prajapati
+Auther (Backend) - Dharmjit Chaauhan

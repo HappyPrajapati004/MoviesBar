@@ -20,15 +20,15 @@
         <form class="form" action="" method="post">
             <div class="input-group">
                 <label for="username">Username</label>
-                <input type="text" name="username" id="username" placeholder="">
+                <input type="text" name="username" required id="username" placeholder="">
             </div>
             <div class="input-group">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="">
+                <input type="email" name="email" required id="email" placeholder="">
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="">
+                <input type="password" name="password" required id="password" placeholder="">
             </div><br>
             <button class="sign" type="submit" >Sign in</button>
         </form>

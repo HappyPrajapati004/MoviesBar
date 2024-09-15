@@ -18,10 +18,9 @@
             <h2>HDR COllection</h2>
             <div class="navbar">
                 <ul>
-                    <li><a href="NewMovies.html">New Movies</a></li>
-                    <li><a href="Bollywood.html">Bollywood.html</a></li>
-                    <li><a href="South.html">South Movies</a></li>
+                    <li><a href="Bollywood.html">Bollywood Movie</a></li>
                     <li><a href="Hollywood.html">Hollywood Movies</a></li>
+                    <li><a href="South.html">South Movies</a></li>
                     <li><a href="gujrati.html">Gujrati Movies</a></li>
                     <li><a href="login.php">Login</a></li>
                 </ul>

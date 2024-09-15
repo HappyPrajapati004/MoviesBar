@@ -13,6 +13,7 @@ HTML, CSS, JavaScript<br>
 Backend: Php <br>
 Database: MySQL<br>
 <br>
-
+<h3>
 Auther (frontend)- Happy Prajapati   <br>
 Auther (Backend) - Dharmjit Chaauhan
+<h3>

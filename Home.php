@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HDR COLLECTION</title>
-  <link rel="stylesheet" href="menupage.css" />
+  <link rel="stylesheet" href="Home.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -23,7 +23,7 @@
         <?php
         include('config.php');
         // Fetch data from the database
-        $sql = "SELECT name, discription, image FROM display";
+        $sql = "SELECT name, discription, image FROM new_release_movie";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -42,7 +42,6 @@
         } else {
           echo "No records found.";
         }
-
         // Close the database connection
         $conn->close();
         ?>

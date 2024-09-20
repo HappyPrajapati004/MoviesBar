@@ -31,10 +31,13 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam accusamus at quia voluptatum soluta
                 sapiente nesciunt, repudiandae dolorem non quae! Dicta aliquid maiores repudiandae atque quae nihil
                 nulla suscipit ratione! </p><br>
-            <button class="button"><a style="text-decoration: none;
-            color: red;" href="Home.php">Go to Home</a></button>
+                <button onclick="menupage()">Go to Movies</button>
         </div>
     </div>
 </body>
-
+<script>
+    function menupage(){
+    window.location.href = 'Home.php'
+}
+</script>
 </html>

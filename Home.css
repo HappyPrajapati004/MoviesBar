@@ -6,10 +6,18 @@
 
 }
 body{
-    background-color: #8a2be2;
+    background: rgb(27, 58, 80);
+    background: linear-gradient(90deg, rgb(32, 66, 91) 0%, rgb(36, 12, 86) 100%);
+    background: -moz-linear-gradient(90deg, rgb(15, 37, 52) 0%, rgb(29, 10, 68) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(17, 42, 60) 0%, rgb(33, 15, 70) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", endColorstr="#524175", GradientType=1 );
 }
 #maindiv{
-  background-color: #450c74;
+    background: rgb(27, 58, 80);
+    background: linear-gradient(90deg, rgb(32, 66, 91) 0%, rgb(36, 12, 86) 100%);
+    background: -moz-linear-gradient(90deg, rgb(15, 37, 52) 0%, rgb(29, 10, 68) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(17, 42, 60) 0%, rgb(33, 15, 70) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", endColorstr="#524175", GradientType=1 );
     height: max-content; 
     margin: 20px;
     border-radius: 14px;
